@@ -1,0 +1,24 @@
+import "../js/core/namespace.js";
+import "../js/configs/core.js";
+import "../js/configs/vars.js";
+import "../js/configs/key.js";
+import "../js/configs/map.js";
+import "../js/configs/modules.js";
+import "../js/helpers/helpers.js";
+import "../js/render/render.js";
+import "../js/render/image.js";
+import "../js/constructors/gameObject.js";
+import "../js/core/objectFactory.js";
+import "../js/constructors/bonus/apple.js";
+import "../js/constructors/bonus/carrot.js";
+import "../js/constructors/bonus/cake.js";
+import "../js/constructors/bonus/watermelon.js";
+import "../js/constructors/antibonus/stone.js";
+import "../js/constructors/antibonus/mushroom.js";
+import "../js/constructors/antibonus/waste.js";
+import "../js/constructors/snake.js";
+import "../js/core/gameLogic.js";
+import "../js/core/actions.js";
+import "../js/core/core.js";
+
+window.SnakeJS.Core.game.load();
