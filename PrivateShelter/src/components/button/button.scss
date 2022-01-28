@@ -1,0 +1,12 @@
+.app-button {
+    height: 40px;
+    max-width: 200px;
+    margin: 5px;
+    border: 4px solid #609880;
+    background-color: initial;
+
+    &:hover {
+        cursor: pointer;
+        border-color: #46715f;
+    }
+}

@@ -1,0 +1,11 @@
+export const FETCH_PETS_START = 'FETCH_PETS_START';
+export const FETCH_PETS_END = 'FETCH_PETS_END';
+
+export const SHELTER_PET_END = 'SHELTER_PET_END';
+export const CHANGE_PET_NAME = 'CHANGE_PET_NAME';
+export const CHANGE_PET_KIND = 'CHANGE_PET_KIND';
+export const CHANGE_PET_AGE = 'CHANGE_PET_AGE';
+export const ADD_NEW_PET_END = 'ADD_NEW_PET_END';
+export const EDIT_PET_END = 'EDIT_PET_END';
+export const RESET_ADD_EDIT_PET = 'RESET_ADD_EDIT_PET';
+export const LOAD_PETS_DATA = 'LOAD_PETS_DATA';
