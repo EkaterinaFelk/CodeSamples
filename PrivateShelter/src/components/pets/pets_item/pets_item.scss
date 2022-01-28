@@ -1,0 +1,6 @@
+@import '../../../styles/mixins';
+
+.pets-item-container {
+    flex: 1 0 30%;
+    @include itemBlock;
+}

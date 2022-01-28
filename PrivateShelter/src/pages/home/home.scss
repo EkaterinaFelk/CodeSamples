@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+
+.app-home_description {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 600px;
+}

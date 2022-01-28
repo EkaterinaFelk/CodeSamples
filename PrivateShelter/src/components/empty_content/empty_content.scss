@@ -1,0 +1,6 @@
+@import '../../styles/mixins';
+
+.empty-content {
+    width: 100%;
+    @include itemBlock;
+}

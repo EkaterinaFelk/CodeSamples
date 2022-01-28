@@ -1,0 +1,54 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "name": "Bobby",
+      "age": 3,
+      "available": false
+    },
+    {
+      "id": "2",
+      "name": "Gufr",
+      "age": 3,
+      "available": false
+    },
+    {
+      "id": "3",
+      "name": "Bella",
+      "age": 5,
+      "available": false
+    },
+    {
+      "id": "fa3c0781-4016-4228-b67d-3abcb954c574",
+      "name": "Woyker",
+      "age": 1,
+      "available": true
+    },
+    {
+      "id": "0cc289c3-bb7f-47da-aabb-66474b643f62",
+      "name": "Ery",
+      "age": 5,
+      "available": true
+    },
+    {
+      "id": "779c81b7-7816-45b5-b0c6-5659ae7d19ba",
+      "name": "Miso",
+      "age": 3,
+      "available": true
+    },
+    {
+      "id": "43e1e4ca-b6d8-4eeb-a055-468e1a4fdcdf",
+      "name": "Rit",
+      "age": 2,
+      "available": true
+    },
+    {
+      "id": "2622191e-4cd9-4b8d-b3d1-9e1ce080f3b2",
+      "name": "Bober",
+      "age": 2,
+      "available": true,
+      "kind": "dog"
+    }
+  ],
+  "pets_kind": ["dog", "cat"]
+}

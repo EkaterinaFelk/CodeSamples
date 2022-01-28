@@ -1,0 +1,10 @@
+@import '../../styles/mixins';
+
+.app-notfound {
+    @include responsiveBG;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 600px;
+}

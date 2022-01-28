@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body, 
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 14px;
+    min-width: $pageMinWidth;
+
+    .rootComponent{
+        height: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: stretch;
+        align-content: stretch;
+    }
+}
+
+main {
+    height: $mainHeight;
+}

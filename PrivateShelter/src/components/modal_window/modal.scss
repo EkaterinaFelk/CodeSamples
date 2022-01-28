@@ -1,0 +1,59 @@
+@import '../../styles/colors';
+
+.app-modal__wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .app-modal__header {
+        height: 30px;
+        font-weight: 800;
+        border-bottom: 2px solid $standardGreen;
+    }
+
+    .app-modal {
+        width: 200px;
+        padding: 10px;
+        background: #fff;
+        border-radius: 5px;
+        min-width: 500px;
+        position: relative;
+
+        .app-modal__button--close {
+            position: absolute;
+            right: -10px;
+            top: -10px;
+            background-color: #fff;
+            line-height: 20px;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            border: 3px solid #000;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+
+        .app-modal__content {
+            padding: 10px;
+
+            .app-modal__content--text {
+                font-weight: bold;
+                font-size: 20px;
+                margin: 20px 0;
+                text-align: center;
+            }
+        }
+    }
+
+    .app-modal__footer {
+        margin: 10px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+}
