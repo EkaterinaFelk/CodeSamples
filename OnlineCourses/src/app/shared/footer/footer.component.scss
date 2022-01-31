@@ -1,0 +1,9 @@
+@import '../../../styles/variables';
+
+.footer {
+    flex:0 0 $footer-height;
+    text-align: center;
+    background-color: $default-color;
+    color: $white;
+    line-height: $footer-height;
+}

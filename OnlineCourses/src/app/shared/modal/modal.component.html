@@ -1,0 +1,33 @@
+<div
+  id="myModal"
+  class="modal"
+  (click)="close()">
+  <div class="modal__modal-content">
+    <div class="modal__modal-content__header">
+      <h3 class="modal__modal-content__header__title">
+        {{data.title}}
+      </h3>
+      <span
+        class="modal__close-btn"
+        (click)="onClose()"
+        >&times;</span>
+    </div>
+
+    <div class="modal__modal-content__body">
+      <p>{{data.body}}</p>
+    </div>
+
+    <div class="modal__modal-content__footer">
+      <button
+        class="button"
+        (click)="submit()">
+        OK
+      </button>
+      <button
+        class="button"
+        (click)="onClose()">
+        Cancel
+      </button>
+    </div>
+  </div>
+</div>

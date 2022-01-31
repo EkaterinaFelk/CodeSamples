@@ -1,0 +1,28 @@
+<div class="dual-selectbox">
+  <multi-select
+    [options]="availableData"
+    [idProperty]="idProperty"
+    [labelProperty]="labelProperty"
+    [(selected)]="selectedAvailableData"
+  ></multi-select>
+
+  <div class="dual-selectbox__tools">
+    <div
+      class="dual-selectbox__tools__tool"
+      (click)="add()">
+      >
+    </div>
+    <div
+      class="dual-selectbox__tools__tool"
+      (click)="remove()">
+      <
+    </div>
+  </div>
+
+  <multi-select
+    [options]="selectedData"
+    [idProperty]="idProperty"
+    [labelProperty]="labelProperty"
+    [(selected)]="selectedSelectedData"
+  ></multi-select>
+</div>

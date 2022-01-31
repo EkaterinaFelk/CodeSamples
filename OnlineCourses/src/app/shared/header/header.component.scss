@@ -1,0 +1,12 @@
+@import '../../../styles/variables';
+.header {
+    flex:0 0 $header-height;
+    min-width: $content-min-width;
+    background-color: $default-color;
+    &__title {
+        line-height: $header-height;
+        margin: 0;
+        padding: 0 10px;
+        color: $white;
+    }
+}

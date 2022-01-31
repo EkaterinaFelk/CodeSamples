@@ -1,0 +1,40 @@
+@import '../../../styles/variables';
+@import '../../../styles/mixins';
+.course-block {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    background-color: $course-block-background;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid $black;
+    margin: 20px 0;
+    &:hover {
+        background: linear-gradient(to bottom, $course-block-background-hover, $course-block-background);
+    }
+    &__content {
+        flex: 1 0 200px;
+        &__main-data {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            padding: 10px;
+            &__title {
+                margin: 0;
+            }
+            &__date {
+                font-weight: 700;
+            }
+        }
+        &__description {
+          @include multiLineEllipsis($lineHeight: 1em, $lineCount: 3, $bgColor: $course-block-background);
+        }
+    }
+    &__toolbar {
+        flex: 0 0 auto;
+        padding: 5px 10px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+}
