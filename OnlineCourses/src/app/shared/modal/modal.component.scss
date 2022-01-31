@@ -1,0 +1,61 @@
+@import '../../../styles/variables';
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: $bg-modal;
+
+    &__modal-content {
+        background-color: $bg-modal-content;
+        margin: 20% auto;
+        padding: 0px;
+        width: 40%;
+        animation-name: showModal;
+        animation-duration: 0.4s;
+
+        &__body {
+            text-align: center;
+            padding: 2rem;
+        }
+        &__header {
+            background-color: $default-color;
+            height: 50px;
+            &__title {
+                float: left;
+                padding-top: 0.5rem;
+                padding-left: 0.5rem;
+                color: $white;
+            }
+        }
+        &__footer {
+            padding-bottom: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+    &__close-btn {
+        color: $white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        padding-top: 0.5rem;
+        padding-right: 0.5rem;
+        &:hover,
+        &:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes showModal {
+  from {opacity: 0}
+  to {opacity: 1}
+}

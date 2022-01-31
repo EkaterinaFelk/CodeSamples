@@ -1,0 +1,71 @@
+@import '../../styles/variables';
+.edit-course-data {
+    width: 80%;
+    margin: auto;
+    &__row {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    &__row:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    &__row-button {
+        padding-left: $form-layout-width;
+        justify-content: space-around;
+    }
+    &__edit-block {
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid $default-color;
+        flex: 1 0 120px;
+        &:focus {
+            border: 1px solid $form-border-hover;
+        }
+        &.ng-dirty.ng-invalid {
+            border: solid $validation-invalid 2px;
+        }
+        &.ng-dirty.ng-valid {
+            border: solid $default-color 2px;
+        }
+    }
+    &__label {
+        padding: 0.5em 1.5em 0.5em 0;
+        font-weight: 700;
+        flex: 1 0 120px;
+        max-width: 220px;
+    }
+    &__button {
+        padding: 5px;
+    }
+    &__select-box {
+        flex: 1 0 120px;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    &__select-tools {
+        vertical-align: top;
+        background-color: $tools-background;
+        &__tool {
+            padding: 10px;
+            &:hover {
+                background-color: $tools-background-hover;
+            }
+        }
+    }
+    &__duration {
+        flex: 0 0 100px;
+    }
+    &__duration-title {
+        padding: 10px;
+    }
+}
+
+multi-select{
+  flex: 1 0 120px;
+}
+
+.validate-block {
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    color: $validation-invalid;
+}

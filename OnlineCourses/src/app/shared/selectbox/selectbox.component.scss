@@ -1,0 +1,15 @@
+@import '../../../styles/variables';
+.edit-course-data {
+    :host &__edit-block {
+        padding: 5px;
+        border-radius: 2px;
+        border: 1px solid $default-color;
+        flex: 1 0 120px;
+        &:focus {
+            border: 1px solid $form-border-hover;
+        }
+    }
+    &__select {
+        width: 100%;
+    }
+}

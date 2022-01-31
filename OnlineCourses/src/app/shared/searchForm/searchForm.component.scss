@@ -1,0 +1,30 @@
+@import '../../../styles/variables';
+.search-form {
+    &__input {
+        width: 70%;
+        height: $element-default-height;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 1px solid $default-color;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+        &:focus {
+            box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    }
+    &__button {
+        height: $element-default-height;
+        background-color: $default-color;
+        color: $white;
+        border: 1px solid $white;
+        cursor: pointer;
+        &:hover {
+            color: $default-color;
+            background-color: $white;
+            border: 1px solid $default-color;
+        }
+    }
+}
+
+:host {
+  flex: 1 0 auto;
+}

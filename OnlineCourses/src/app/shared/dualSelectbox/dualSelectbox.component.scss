@@ -1,0 +1,20 @@
+@import '../../../styles/variables';
+multi-select {
+    flex: 1 0 120px;
+}
+
+.dual-selectbox {
+    flex: 1 0 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    &__tools {
+        vertical-align: top;
+        background-color: $tools-background;
+        &__tool {
+            padding: 10px;
+            &:hover {
+                background-color: $tools-background-hover;
+            }
+        }
+    }
+}

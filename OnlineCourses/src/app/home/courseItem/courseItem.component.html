@@ -1,0 +1,29 @@
+<div class="course-block">
+  <div class="course-block__content">
+    <div class="course-block__content__main-data">
+      <h4 class="course-block__content__main-data__title">
+        {{course.title}}
+      </h4>
+      <span class="course-block__content__main-data__duration">
+        {{course.duration | duration}}
+      </span>
+      <span class="course-block__content__main-data__date">
+        {{course.date | date: 'dd.MM.yy'}}
+      </span>
+    </div>
+    <div class="course-block__content__description">
+      {{course.description}}
+    </div>
+  </div>
+  <div class="course-block__toolbar">
+    <button
+      class="button"
+      (click)="onNavigateToEditingCourse(course)"
+      >Edit</button>
+    <button
+      class="button"
+      (click)="confirmRemove(course)"
+      >Remove</button>
+  </div>
+</div>
+

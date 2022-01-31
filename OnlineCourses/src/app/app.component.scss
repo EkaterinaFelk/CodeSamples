@@ -1,0 +1,31 @@
+@import '../styles/variables';
+app-root {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+    padding: 20px;
+    background-color: $content-background;
+    min-width: $content-min-width;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.button {
+    height: $element-default-height;
+    width: 110px;
+    background-color: $white;
+    border-radius: 5px;
+    border: 1px solid $black;
+    cursor: pointer;
+    &:hover {
+        background-color: $content-background;
+    }
+}

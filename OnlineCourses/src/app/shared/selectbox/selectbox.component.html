@@ -1,0 +1,10 @@
+<select
+  class="edit-course-data__edit-block edit-course-data__select"
+  (change)="onSelect($event)"
+  multiple>
+  <option
+    *ngFor = "let option of options"
+    [value] = option[idProperty]>
+    {{ option[labelProperty] }}
+  </option>
+</select>

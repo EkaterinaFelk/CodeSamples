@@ -1,0 +1,82 @@
+<form
+  class="edit-course-data"
+  [formGroup]="editForm"
+  (ngSubmit)="submit()">
+  <div class="edit-course-data__row">
+    <label class="edit-course-data__label">Title</label>
+    <input class="edit-course-data__edit-block" type="text" formControlName="title">
+  </div>
+  <div
+    *ngIf="isShowErrors(title)"
+    class="edit-course-data__row validate-block">
+    <div *ngIf="title?.errors?.['required']">
+      Title is required.
+    </div>
+  </div>
+
+  <div class="edit-course-data__row">
+    <label class="edit-course-data__label">Description</label>
+    <textarea class="edit-course-data__edit-block" formControlName="description"></textarea>
+  </div>
+
+  <div class="edit-course-data__row">
+    <label class="edit-course-data__label">Date</label>
+    <input
+      class="edit-course-data__edit-block"
+      value="{{course.date | date:'dd.MM.yyyy'}}"
+      (keyup)="onChange($event)"
+      formControlName="date">
+  </div>
+  <div
+    *ngIf="isShowErrors(date)"
+    class="edit-course-data__row validate-block">
+    <div *ngIf="date?.errors?.['required']">
+      Date is required.
+    </div>
+    <div *ngIf="date?.errors?.['invalidFormat']">
+      Please enter date in 'dd.mm.yyyy' format
+    </div>
+  </div>
+
+  <div class="edit-course-data__row">
+    <label class="edit-course-data__label">Duration</label>
+    <input class="edit-course-data__edit-block edit-course-data__duration" type="text" formControlName="duration">
+    <span class="edit-course-data__duration-title">{{duration?.value | duration}}</span>
+  </div>
+  <div
+    *ngIf="isShowErrors(duration)"
+    class="edit-course-data__row validate-block">
+    <div *ngIf="duration?.errors?.['required']">
+      Duration is required.
+    </div>
+    <div *ngIf="duration?.errors?.['pattern']">
+      Please enter date in 'dd.mm.yyyy' format
+    </div>
+  </div>
+
+  <div class="edit-course-data__row">
+    <label class="edit-course-data__label">Authors's list</label>
+      <app-dual-selectbox
+        class="edit-course-data__select-box"
+        idProperty = "id"
+        labelProperty = "name"
+        [allData] = "allAuthors"
+        [selectedData] = "courseAuthors"
+        formControlName = "author"
+      ></app-dual-selectbox>
+    </div>
+
+    <div class="edit-course-data__row edit-course-data__row-button">
+      <input
+        type="submit"
+        class="edit-course-data__button"
+        [disabled]="editForm.invalid"
+        value="Save" />
+      <input
+        type="button"
+        class="edit-course-data__button"
+        (click)="cancelEdit()"
+        value="Cancel" />
+      <input type="hidden" formControlName="id" />
+    </div>
+</form>
