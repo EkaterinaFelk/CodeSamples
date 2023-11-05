@@ -1,7 +1,7 @@
 {
   "name": "cat-pictures-fe",
-  "$schema": "node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "./src",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/cat-pictures-fe/src",
   "projectType": "application",
   "targets": {
     "build": {
@@ -9,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/cat-pictures-fe"
+        "outputPath": "dist/apps/cat-pictures-fe"
       },
       "configurations": {
         "development": {
@@ -24,7 +24,8 @@
       "executor": "@nx/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "cat-pictures-fe:build"
+        "buildTarget": "cat-pictures-fe:build",
+        "proxyConfig": "apps/cat-pictures-fe/proxy.conf.json"
       },
       "configurations": {
         "development": {
@@ -57,20 +58,14 @@
       "outputs": ["{options.reportsDirectory}"],
       "options": {
         "passWithNoTests": true,
-        "reportsDirectory": "coverage/cat-pictures-fe"
+        "reportsDirectory": "../../coverage/apps/cat-pictures-fe"
       }
     },
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["./src/**/*.{ts,tsx,js,jsx}"]
-      }
-    },
-    "serve-static": {
-      "executor": "@nx/web:file-server",
-      "options": {
-        "buildTarget": "cat-pictures-fe:build"
+        "lintFilePatterns": ["apps/cat-pictures-fe/**/*.{ts,tsx,js,jsx}"]
       }
     }
   },
