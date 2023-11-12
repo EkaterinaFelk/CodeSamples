@@ -1,0 +1,46 @@
+
+Linting "cat-pictures-fe"...
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=3.3.1 <5.2.0
+
+YOUR TYPESCRIPT VERSION: 5.2.2
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/app/app.tsx[24m[0m
+[0m  [2m12:5[22m  [31merror[39m  'React' must be in scope when using JSX  [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m13:7[22m  [31merror[39m  'React' must be in scope when using JSX  [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m14:7[22m  [31merror[39m  'React' must be in scope when using JSX  [2mreact/react-in-jsx-scope[22m[0m
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/header/header.tsx[24m[0m
+[0m  [2m4:23[22m  [31merror[39m  Component definition is missing display name  [2mreact/display-name[22m[0m
+[0m  [2m5:10[22m  [31merror[39m  'React' must be in scope when using JSX       [2mreact/react-in-jsx-scope[22m[0m
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx[24m[0m
+[0m   [2m6:31[22m  [31merror[39m    Component definition is missing display name                                                               [2mreact/display-name[22m[0m
+[0m  [2m20:5[22m   [31merror[39m    'React' must be in scope when using JSX                                                                    [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m22:9[22m   [31merror[39m    'React' must be in scope when using JSX                                                                    [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m23:11[22m  [31merror[39m    'React' must be in scope when using JSX                                                                    [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m23:11[22m  [33mwarning[39m  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [2mjsx-a11y/alt-text[22m[0m
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/welcome/welcome.tsx[24m[0m
+[0m  [2m4:24[22m  [31merror[39m  Component definition is missing display name  [2mreact/display-name[22m[0m
+[0m  [2m5:10[22m  [31merror[39m  'React' must be in scope when using JSX       [2mreact/react-in-jsx-scope[22m[0m
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/main.tsx[24m[0m
+[0m  [2m10:3[22m  [31merror[39m  'React' must be in scope when using JSX  [2mreact/react-in-jsx-scope[22m[0m
+[0m  [2m11:5[22m  [31merror[39m  'React' must be in scope when using JSX  [2mreact/react-in-jsx-scope[22m[0m
+[0m[0m
+[0m[31m[1m✖ 14 problems (13 errors, 1 warning)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+Lint warnings found in the listed files.
+
+Lint errors found in the listed files.
+

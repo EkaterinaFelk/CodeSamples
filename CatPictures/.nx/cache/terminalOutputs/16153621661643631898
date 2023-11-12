@@ -1,0 +1,1630 @@
+Loading proxy configuration from: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/proxy.conf.json
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m4200[22m/[39m
+Failed to resolve import "../components/imageContainer/imageContainer.tsx" from "apps/cat-pictures-fe/src/app/app.tsx". Does the file exist?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:17:01 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/imageContainer/imageContainer.tsx" from "apps/cat-pictures-fe/src/app/app.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/app/app.tsx[39m:5:31
+[33m  18 |  import { Header } from "../components/header/header.tsx";
+  19 |  import { Welcome } from "../components/welcome/welcome.tsx";
+  20 |  import { ImageContainer } from "../components/imageContainer/imageContainer.tsx";
+     |                                  ^
+  21 |  const StyledApp = styled.div`
+  22 |    // Your style here[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 6)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:17:03 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/imageContainer/imageContainer.tsx" from "apps/cat-pictures-fe/src/app/app.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/app/app.tsx[39m:5:31
+[33m  18 |  import { Header } from "../components/header/header.tsx";
+  19 |  import { Welcome } from "../components/welcome/welcome.tsx";
+  20 |  import { ImageContainer } from "../components/imageContainer/imageContainer.tsx";
+     |                                  ^
+  21 |  const StyledApp = styled.div`
+  22 |    // Your style here[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 6)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:17:07 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/imageContainer/imageContainer.tsx" from "apps/cat-pictures-fe/src/app/app.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/app/app.tsx[39m:5:31
+[33m  18 |  import { Header } from "../components/header/header.tsx";
+  19 |  import { Welcome } from "../components/welcome/welcome.tsx";
+  20 |  import { ImageContainer } from "../components/imageContainer/imageContainer.tsx";
+     |                                  ^
+  21 |  const StyledApp = styled.div`
+  22 |    // Your style here[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 6)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:17:08 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../components/imageContainer/imageContainer.tsx" from "apps/cat-pictures-fe/src/app/app.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/app/app.tsx[39m:5:31
+[33m  18 |  import { Header } from "../components/header/header.tsx";
+  19 |  import { Welcome } from "../components/welcome/welcome.tsx";
+  20 |  import { ImageContainer } from "../components/imageContainer/imageContainer.tsx";
+     |                                  ^
+  21 |  const StyledApp = styled.div`
+  22 |    // Your style here[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 6)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29) [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:17:32 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/app/app.tsx[22m
+[2m12:17:32 AM[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33maxios[32m[39m
+[2m12:17:32 AM[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:18:10 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:18:16 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:00 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:00 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx: Expected corresponding JSX closing tag for <Image>. (24:8)
+
+[0m [90m 22 |[31m         [33m<[31m[33mImage[31m key[33m=[31m{cat[33m.[31mid}[33m>[31m[0m
+[0m [90m 23 |[31m           [33m<[31m[33mimg[31m src[33m=[31m{cat[33m.[31murl} [33m/[31m[33m>[31m[0m
+[0m[31m[1m>[22m[31m[90m 24 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[0m
+[0m [90m    |[31m         [31m[1m^[22m[31m[0m
+[0m [90m 25 |[31m       ))}[0m
+[0m [90m 26 |[31m     [33m<[31m[33m/[31m[33mImageContainerStyled[31m[33m>[31m[0m
+[0m [90m 27 |[31m   )[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx[39m:24:8
+[33m  22 |          <Image key={cat.id}>
+  23 |            <img src={cat.url} />
+  24 |          </div>
+     |          ^
+  25 |        ))}
+  26 |      </ImageContainerStyled>[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6890:16)
+      at TypeScriptParserMixin.jsxParseElement (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6915:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6927:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:39
+      at TypeScriptParserMixin.tryParse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3592:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:18)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12284:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11499:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11928:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11910:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11511:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12284:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:17)
+      at TypeScriptParserMixin.parseExprListItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12020:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11054:22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:04 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:04 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (23:10)
+
+[0m [90m 21 |[31m       {catsData[33m.[31mmap((cat) [33m=>[31m ([0m
+[0m [90m 22 |[31m         [33m<[31m[33mImage[31m key[33m=[31m{cat[33m.[31mid} [33m/[31m[33m>[31m[0m
+[0m[31m[1m>[22m[31m[90m 23 |[31m           [33m<[31m[33mimg[31m src[33m=[31m{cat[33m.[31murl} [33m/[31m[33m>[31m[0m
+[0m [90m    |[31m           [31m[1m^[22m[31m[0m
+[0m [90m 24 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[0m
+[0m [90m 25 |[31m       ))}[0m
+[0m [90m 26 |[31m     [33m<[31m[33m/[31m[33mImageContainerStyled[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx[39m:23:10
+[33m  21 |        {catsData.map((cat) => (
+  22 |          <Image key={cat.id} />
+  23 |            <img src={cat.url} />
+     |            ^
+  24 |          </div>
+  25 |        ))}[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6906:18)
+      at TypeScriptParserMixin.jsxParseElement (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6915:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6927:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:39
+      at TypeScriptParserMixin.tryParse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3592:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:18)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12284:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11499:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11928:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11910:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11511:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12284:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:17)
+      at TypeScriptParserMixin.parseExprListItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12020:18)
+      at TypeScriptParserMixin.parseCallExpressionArguments (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11054:22)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:08 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:44 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:44 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./image/image.tsx" from "apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx[39m:6:20
+[33m  20 |  import axios from "axios";
+  21 |  import { ImageContainerStyled } from "./imageContainer.styled.ts";
+  22 |  import { Image } from "./image/image.tsx";
+     |                         ^
+  23 |  export const ImageContainer = _s(memo(_c = _s(() => {
+  24 |    _s();[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 7)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:46 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/app/app.tsx[22m
+Failed to resolve import "./image/image.tsx" from "apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx". Does the file exist?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:46 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./image/image.tsx" from "apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image-container/imageContainer.tsx[39m:6:20
+[33m  20 |  import axios from "axios";
+  21 |  import { ImageContainerStyled } from "./imageContainer.styled.ts";
+  22 |  import { Image } from "./image/image.tsx";
+     |                         ^
+  23 |  export const ImageContainer = _s(memo(_c = _s(() => {
+  24 |    _s();[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 7)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:59 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/app/app.tsx[22m
+Failed to resolve import "./image.styled.ts" from "apps/cat-pictures-fe/src/components/image/image.tsx". Does the file exist?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:20:59 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "./image.styled.ts" from "apps/cat-pictures-fe/src/components/image/image.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:2:28
+[33m  16 |  }
+  17 |  import { memo } from "react";
+  18 |  import { ImageStyled } from "./image.styled.ts";
+     |                               ^
+  19 |  export const Image = memo(_c = ({
+  20 |    data[39m
+      at formatError (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42645:46)
+      at TransformContext.error (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42641:19)
+      at normalizeUrl (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40508:33)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40651:47
+      at async Promise.all (index 4)
+      at async TransformContext.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:40577:13)
+      at async Object.transform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:42919:30)
+      at async loadAndTransform (file:///Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/dist/node/chunks/dep-e8f070e8.js:53385:29)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:22:07 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:22:30 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:22:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:23:31 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:23:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:23:47 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Expected corresponding JSX closing tag for <ImageWrapperStyled>. (8:4)
+
+[0m [90m  6 |[31m     [33m<[31m[33mImageWrapperStyled[31m[33m>[31m[0m
+[0m [90m  7 |[31m         [33m<[31m[33mimg[31m src[33m=[31m{data[33m.[31murl} [33m/[31m[33m>[31m[0m
+[0m[31m[1m>[22m[31m[90m  8 |[31m     [33m<[31m[33m/[31m[33mImageStyled[31m[33m>[31m[0m
+[0m [90m    |[31m     [31m[1m^[22m[31m[0m
+[0m [90m  9 |[31m   )[33m;[31m[0m
+[0m [90m 10 |[31m })[33m;[31m[0m
+[0m [90m 11 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:8:4
+[33m  6  |      <ImageWrapperStyled>
+  7  |          <img src={data.url} />
+  8  |      </ImageStyled>
+     |      ^
+  9  |    );
+  10 |  });[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6890:16)
+      at TypeScriptParserMixin.jsxParseElement (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6915:17)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6927:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:39
+      at TypeScriptParserMixin.tryParse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3592:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9632:18)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12284:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11499:28)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10551:23)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10547:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12279:16)
+      at TypeScriptParserMixin.parseExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10547:17)
+      at TypeScriptParserMixin.parseReturnStatement (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13003:28)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12621:21)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9340:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12568:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseBlock (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13170:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11935:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11910:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11511:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11137:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:23:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:12 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x3)[39m
+Transform failed with 2 errors:
+/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.styled.ts:8:13: ERROR: Multiple exports with the same name "ImageStyled"
+/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.styled.ts:8:13: ERROR: The symbol "ImageStyled" has already been declared
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:12 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 2 errors:
+/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.styled.ts:8:13: ERROR: Multiple exports with the same name "ImageStyled"
+/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.styled.ts:8:13: ERROR: The symbol "ImageStyled" has already been declared[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.styled.ts[39m:8:13
+[33m  
+  [33mMultiple exports with the same name "ImageStyled"[33m
+  6  |  `;
+  7  |  
+  8  |  export const ImageStyled = styled.div`
+     |               ^
+  9  |   width: 100px;x
+  10 |   height:100px;
+  
+  [33mThe symbol "ImageStyled" has already been declared[33m
+  6  |  `;
+  7  |  
+  8  |  export const ImageStyled = styled.div`
+     |               ^
+  9  |   width: 100px;x
+  10 |   height:100px;
+  [39m
+      at failureErrorWithLog (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/node_modules/esbuild/lib/main.js:1636:15)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/node_modules/esbuild/lib/main.js:837:29
+      at responseCallbacks.<computed> (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/node_modules/esbuild/lib/main.js:697:9)
+      at handleIncomingPacket (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/node_modules/esbuild/lib/main.js:752:9)
+      at Socket.readFromStdout (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/vite/node_modules/esbuild/lib/main.js:673:7)
+      at Socket.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:315:12)
+      at readableAddChunk (node:internal/streams/readable:289:9)
+      at Socket.Readable.push (node:internal/streams/readable:228:10)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:21 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:25 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:24:41 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:25:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:25:30 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:25:41 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:25:46 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:25:56 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:26:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image-container/imageContainer.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:26:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:26:24 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m [33m(x2)[39m
+[2m12:26:25 AM[22m [31m[1m[vite][22m[39m [31mhttp proxy error at /api:[39m
+Error: connect ECONNREFUSED 127.0.0.1:3000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:31 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:31 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected reserved word 'interface'. (4:0)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [0m
+[0m [90m   |[31m [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m [36mexport[31m [36mconst[31m [33mImage[31m [33m=[31m memo(({ data }) [33m=>[31m {[0m
+[0m [90m 6 |[31m   [36mreturn[31m ([0m
+[0m [90m 7 |[31m     [33m<[31m[33mImageWrapperStyled[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:0
+[33m  1  |  import { memo } from "react";
+  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+     |   ^
+  4  |  interface 
+  5  |  export const Image = memo(({ data }) => {[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.checkReservedWord (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12072:12)
+      at TypeScriptParserMixin.checkReservedWord (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9206:13)
+      at TypeScriptParserMixin.parseIdentifierName (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12051:12)
+      at TypeScriptParserMixin.parseIdentifier (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12026:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:11231:27)
+      at TypeScriptParserMixin.parseExprAtom (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10857:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10840:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10816:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9696:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10654:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10659:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10636:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10597:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9643:20)
+      at TypeScriptParserMixin.parseExpressionBase (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10551:23)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10547:39
+      at TypeScriptParserMixin.allowInAnd (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12279:16)
+      at TypeScriptParserMixin.parseExpression (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:10547:17)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12737:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9340:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:39 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:39 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected token, expected "{" (4:21)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [33mImageProps[31m [33m=[31m {}[0m
+[0m [90m   |[31m                      [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m[0m
+[0m [90m 6 |[31m [36mexport[31m [36mconst[31m [33mImage[31m [33m=[31m memo(({ data }) [33m=>[31m {[0m
+[0m [90m 7 |[31m   [36mreturn[31m ([0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:21
+[33m  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+  4  |  interface ImageProps = {}
+     |                       ^
+  5  |  
+  6  |  export const Image = memo(({ data }) => {[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.unexpected (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3253:16)
+      at TypeScriptParserMixin.expect (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3585:28)
+      at TypeScriptParserMixin.tsParseObjectTypeMembers (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8104:10)
+      at TypeScriptParserMixin.tsInType (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8682:14)
+      at TypeScriptParserMixin.tsParseInterfaceDeclaration (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8649:22)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9337:27)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:44 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:44 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected token, expected "{" (4:21)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [33mImageProps[31m [33m=[31m {[0m
+[0m [90m   |[31m                      [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m   data[33m:[31m[0m
+[0m [90m 6 |[31m }[0m
+[0m [90m 7 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:21
+[33m  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+  4  |  interface ImageProps = {
+     |                       ^
+  5  |    data:
+  6  |  }[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.unexpected (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3253:16)
+      at TypeScriptParserMixin.expect (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3585:28)
+      at TypeScriptParserMixin.tsParseObjectTypeMembers (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8104:10)
+      at TypeScriptParserMixin.tsInType (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8682:14)
+      at TypeScriptParserMixin.tsParseInterfaceDeclaration (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8649:22)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9337:27)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:58 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:27:58 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected token, expected "{" (4:21)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [33mImageProps[31m [33m=[31m {[0m
+[0m [90m   |[31m                      [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m   data[33m:[31m {[0m
+[0m [90m 6 |[31m     url[33m:[31m string[33m;[31m[0m
+[0m [90m 7 |[31m   }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:21
+[33m  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+  4  |  interface ImageProps = {
+     |                       ^
+  5  |    data: {
+  6  |      url: string;[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.unexpected (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3253:16)
+      at TypeScriptParserMixin.expect (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3585:28)
+      at TypeScriptParserMixin.tsParseObjectTypeMembers (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8104:10)
+      at TypeScriptParserMixin.tsInType (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8682:14)
+      at TypeScriptParserMixin.tsParseInterfaceDeclaration (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8649:22)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9337:27)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:28:03 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:28:03 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected token, expected "{" (4:21)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [33mImageProps[31m [33m=[31m {[0m
+[0m [90m   |[31m                      [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m   data[33m:[31m {[0m
+[0m [90m 6 |[31m     url[33m:[31m string[33m;[31m[0m
+[0m [90m 7 |[31m   }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:21
+[33m  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+  4  |  interface ImageProps = {
+     |                       ^
+  5  |    data: {
+  6  |      url: string;[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.unexpected (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3253:16)
+      at TypeScriptParserMixin.expect (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3585:28)
+      at TypeScriptParserMixin.tsParseObjectTypeMembers (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8104:10)
+      at TypeScriptParserMixin.tsInType (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8682:14)
+      at TypeScriptParserMixin.tsParseInterfaceDeclaration (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8649:22)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9337:27)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:28:27 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:28:27 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx: Unexpected token, expected "{" (4:21)
+
+[0m [90m 2 |[31m [36mimport[31m { [33mImageWrapperStyled[31m[33m,[31m [33mImageStyled[31m } [36mfrom[31m [32m"./image.styled.ts"[31m[33m;[31m[0m
+[0m [90m 3 |[31m[0m
+[0m[31m[1m>[22m[31m[90m 4 |[31m [36minterface[31m [33mImageProps[31m [33m=[31m {[0m
+[0m [90m   |[31m                      [31m[1m^[22m[31m[0m
+[0m [90m 5 |[31m   data[33m:[31m {[0m
+[0m [90m 6 |[31m     url[33m:[31m string[33m;[31m[0m
+[0m [90m 7 |[31m   }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures-fe/src/components/image/image.tsx[39m:4:21
+[33m  2  |  import { ImageWrapperStyled, ImageStyled } from "./image.styled.ts";
+  3  |  
+  4  |  interface ImageProps = {
+     |                       ^
+  5  |    data: {
+  6  |      url: string;[39m
+      at constructor (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:356:19)
+      at TypeScriptParserMixin.raise (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3223:19)
+      at TypeScriptParserMixin.unexpected (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3253:16)
+      at TypeScriptParserMixin.expect (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:3585:28)
+      at TypeScriptParserMixin.tsParseObjectTypeMembers (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8104:10)
+      at TypeScriptParserMixin.tsInType (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8682:14)
+      at TypeScriptParserMixin.tsParseInterfaceDeclaration (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:8649:22)
+      at TypeScriptParserMixin.parseStatementContent (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9337:27)
+      at TypeScriptParserMixin.parseStatementLike (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12588:17)
+      at TypeScriptParserMixin.parseModuleItem (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12565:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12464:10)
+      at TypeScriptParserMixin.parseTopLevel (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:12454:25)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14376:10)
+      at TypeScriptParserMixin.parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:9982:18)
+      at parse (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/parser/lib/index.js:14417:38)
+      at parser (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transformation/index.js:21:50)
+      at run.next (<anonymous>)
+      at transform (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:261:32)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:189:28
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:113:33
+      at step (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:287:14)
+      at /Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m12:28:41 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/image/image.tsx[22m
