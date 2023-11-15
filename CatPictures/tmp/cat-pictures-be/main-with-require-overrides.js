@@ -3,9 +3,9 @@
  * This file allows the app to run without bundling in workspace libraries.
  * Must be contained in the ".nx" folder inside the output path.
  */
-const Module = require("module");
-const path = require("path");
-const fs = require("fs");
+const Module = require('module');
+const path = require('path');
+const fs = require('fs');
 const originalResolveFilename = Module._resolveFilename;
 const distPath = __dirname;
 const manifest = [];
@@ -15,7 +15,7 @@ Module._resolveFilename = function (request, parent) {
   for (const entry of manifest) {
     if (request === entry.module && entry.exactMatch) {
       const entry = manifest.find(
-        (x) => request === x.module || request.startsWith(x.module + "/")
+        (x) => request === x.module || request.startsWith(x.module + '/')
       );
       const candidate = path.join(distPath, entry.exactMatch);
       if (isFile(candidate)) {
@@ -23,14 +23,14 @@ Module._resolveFilename = function (request, parent) {
         break;
       }
     } else {
-      const re = new RegExp(entry.module.replace(/\*$/, "(?<rest>.*)"));
+      const re = new RegExp(entry.module.replace(/\*$/, '(?<rest>.*)'));
       const match = request.match(re);
 
       if (match?.groups) {
         const candidate = path.join(
           distPath,
-          entry.pattern.replace("*", ""),
-          match.groups.rest + ".js"
+          entry.pattern.replace('*', ''),
+          match.groups.rest + '.js'
         );
         if (isFile(candidate)) {
           found = candidate;
@@ -55,4 +55,4 @@ function isFile(s) {
 }
 
 // Call the user-defined main.
-require("./apps/cat-pictures-be/src/main.js");
+require('./apps/cat-pictures-be/src/main.js');

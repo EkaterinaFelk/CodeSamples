@@ -1,29 +1,18 @@
 {
   "run": {
-    "command": "nx run-many --parallel --target=serve --projects=cat-pictures-fe,cat-pictures-be",
-    "startTime": "2023-11-12T22:16:59.971Z",
-    "endTime": "2023-11-12T22:29:15.972Z",
+    "command": "nx run-many --all --target=lint --skip-nx-cache --fix",
+    "startTime": "2023-11-15T20:02:54.179Z",
+    "endTime": "2023-11-15T20:02:58.769Z",
     "inner": false
   },
   "tasks": [
     {
-      "taskId": "cat-pictures-be:serve:development",
-      "target": "serve",
-      "projectName": "cat-pictures-be",
-      "hash": "1976731947890639705",
-      "startTime": "2023-11-12T22:16:59.977Z",
-      "endTime": "2023-11-12T22:29:15.941Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 1
-    },
-    {
-      "taskId": "cat-pictures-fe:serve:development",
-      "target": "serve",
-      "projectName": "cat-pictures-fe",
-      "hash": "16153621661643631898",
-      "startTime": "2023-11-12T22:16:59.976Z",
-      "endTime": "2023-11-12T22:29:15.972Z",
+      "taskId": "cat-pictures:lint",
+      "target": "lint",
+      "projectName": "cat-pictures",
+      "hash": "13433837558003900444",
+      "startTime": "2023-11-15T20:02:54.221Z",
+      "endTime": "2023-11-15T20:02:58.769Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 1

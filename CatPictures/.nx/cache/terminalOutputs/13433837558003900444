@@ -1,0 +1,29 @@
+
+Linting "cat-pictures"...
+=============
+
+WARNING: You are currently running a version of TypeScript which is not officially supported by @typescript-eslint/typescript-estree.
+
+You may find that it works just fine, or you may not.
+
+SUPPORTED TYPESCRIPT VERSIONS: >=3.3.1 <5.2.0
+
+YOUR TYPESCRIPT VERSION: 5.4.0-dev.20231114
+
+Please only submit bug reports when using the officially supported version.
+
+=============
+Pages directory cannot be found at apps/cat-pictures/pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file.
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures/app/registry.tsx[24m[0m
+[0m  [2m21:45[22m  [31merror[39m  Unexpected any. Specify a different type  [2m@typescript-eslint/no-explicit-any[22m[0m
+[0m[0m
+[0m[4m/Users/efelk/Desktop/PROJECTS/CodeSamples/CatPictures/apps/cat-pictures/components/image-container/imageContainer.tsx[24m[0m
+[0m  [2m14:9[22m  [33mwarning[39m  Image elements must have an alt prop, either with meaningful text, or an empty string for decorative images  [2mjsx-a11y/alt-text[22m[0m
+[0m[0m
+[0m[31m[1m✖ 2 problems (1 error, 1 warning)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+Lint warnings found in the listed files.
+
+Lint errors found in the listed files.
+
