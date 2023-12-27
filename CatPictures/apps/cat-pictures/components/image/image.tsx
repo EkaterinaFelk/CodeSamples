@@ -1,5 +1,6 @@
+'use client';
 import { memo } from 'react';
-import { ImageWrapperStyled, ImageStyled } from './image.styled';
+import { ImageStyled } from './image.styled';
 import { ImageModel } from '../../models/image';
 
 interface ImageProps {
@@ -7,9 +8,5 @@ interface ImageProps {
 }
 
 export const Image = memo(({ data }: ImageProps) => {
-  return (
-    <ImageWrapperStyled>
-      <ImageStyled src={data.url} />
-    </ImageWrapperStyled>
-  );
+  return <ImageStyled imgUrl={data.url} />;
 });

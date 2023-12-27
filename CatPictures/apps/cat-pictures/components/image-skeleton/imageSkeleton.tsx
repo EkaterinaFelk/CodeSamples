@@ -1,16 +1,12 @@
 import { memo } from 'react';
-
-import {
-  ImageSkeletonStyled,
-  ItemSkeletonStyled,
-} from './imageSkeleton.styled';
+import css from './imageSkeleton.module.css';
 
 export const ImagesSkeleton = memo(() => {
   return (
-    <ImageSkeletonStyled>
-      {Array(20).map((_, i) => (
-        <ItemSkeletonStyled key={i} />
+    <div className={css['app-skeleton-container']}>
+      {[...Array(20).keys()].map((_, i) => (
+        <div className={css['app-skeleton-item']} key={i} />
       ))}
-    </ImageSkeletonStyled>
+    </div>
   );
 });

@@ -1,6 +1,10 @@
 import { memo } from 'react';
-import { WelcomeStyled } from './welcome.styled.ts';
+import css from './welcome.module.css';
 
 export const Welcome = memo(() => {
-  return <WelcomeStyled>Hello! Here you can see cat pictures!</WelcomeStyled>;
+  return (
+    <section className={css['app-welcome']}>
+      Hello! Here you can see cat pictures!
+    </section>
+  );
 });

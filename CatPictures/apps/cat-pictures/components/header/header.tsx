@@ -1,6 +1,7 @@
 import { memo } from 'react';
-import { HeaderStyled } from './header.styled.ts';
+
+import css from './header.module.css';
 
 export const Header = memo(() => {
-  return <HeaderStyled>Cats Pictures!</HeaderStyled>;
+  return <header className={css['app-header']}>Cats Pictures!</header>;
 });
