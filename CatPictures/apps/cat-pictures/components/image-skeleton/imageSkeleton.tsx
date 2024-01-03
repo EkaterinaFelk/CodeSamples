@@ -1,11 +1,17 @@
 import { memo } from 'react';
 import css from './imageSkeleton.module.css';
 
-export const ImagesSkeleton = memo(() => {
+type ImagesSkeletonProps = { limit?: number };
+
+export const ImageSkeleton = memo(() => {
+  return <div className={css['app-skeleton-item']} />;
+});
+
+export const ImagesSkeleton = memo(({ limit = 8 }: ImagesSkeletonProps) => {
   return (
     <div className={css['app-skeleton-container']}>
-      {[...Array(20).keys()].map((_, i) => (
-        <div className={css['app-skeleton-item']} key={i} />
+      {[...Array(limit).keys()].map((_, i) => (
+        <ImageSkeleton key={i} />
       ))}
     </div>
   );

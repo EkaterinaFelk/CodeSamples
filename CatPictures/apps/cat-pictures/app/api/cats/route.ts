@@ -1,10 +1,24 @@
 import { CatModel } from '../../../components/models/cat';
 import { NextResponse } from 'next/server';
 
-const URL = 'https://api.thecatapi.com/v1/images/search?limit=20';
+type URLParams = { page?: string | null; limit?: string | null };
+
+const getURL = ({ page, limit }: URLParams) => {
+  const baseURL = 'https://api.thecatapi.com/v1/images';
+  const defaultLimit = 8;
+  const limitQuery = `limit=${limit || defaultLimit}&`;
+  const pageQuery = page ? `page=${page}` : '';
+
+  return `${baseURL}/search?${limitQuery}${pageQuery}`;
+};
 
 export async function GET(request: Request) {
-  const res = await fetch(URL, {
+  const { searchParams } = new URL(request.url);
+  const page = searchParams.get('page');
+  const limit = searchParams.get('limit');
+
+  const res = await fetch(getURL({ page, limit }), {
+    cache: 'force-cache',
     headers: {
       'x-api-key': process.env.DATA_API_KEY,
     },
