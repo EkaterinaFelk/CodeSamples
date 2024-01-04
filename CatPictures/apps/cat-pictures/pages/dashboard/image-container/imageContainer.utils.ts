@@ -1,5 +1,5 @@
-import axios from "axios";
-import { CatModel } from "../models/cat";
+import axios from 'axios';
+import { CatModel } from '@/models/cat';
 
 const url = process.env.NEXT_PUBLIC_LOCALHOST_URL;
 

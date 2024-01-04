@@ -1,4 +1,4 @@
-import { CatModel } from '../../../components/models/cat';
+import { CatModel } from '@/models/cat';
 import { NextResponse } from 'next/server';
 
 type URLParams = { page?: string | null; limit?: string | null };

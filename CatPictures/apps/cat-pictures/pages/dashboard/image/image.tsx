@@ -1,11 +1,13 @@
 'use client';
-import { memo, useCallback, useEffect, useState } from 'react';
+
+import { memo, useCallback, useState } from 'react';
+import Link from 'next/link';
 import { ImageStyled } from './image.styled';
 import { ImageSkeleton } from '../image-skeleton/imageSkeleton';
-import { ImageModel } from '../../models/image';
+import { CatModel } from '@/models/cat';
 
 interface ImageProps {
-  data: ImageModel;
+  data: CatModel;
   isLoaded?: boolean;
 }
 
@@ -19,12 +21,14 @@ export const Image = memo(({ data, isLoaded = false }: ImageProps) => {
   return (
     <>
       {!srcLoaded && <ImageSkeleton key={'skeleton'} />}
-      <ImageStyled
-        src={data.url}
-        loaded={srcLoaded}
-        onLoad={handleOnLoad}
-        key={'image'}
-      />
+      <Link href={`/dashboard/details/${data.id}`} passHref scroll={false}>
+        <ImageStyled
+          src={data.url}
+          loaded={srcLoaded}
+          onLoad={handleOnLoad}
+          key={'image'}
+        />
+      </Link>
     </>
   );
 });

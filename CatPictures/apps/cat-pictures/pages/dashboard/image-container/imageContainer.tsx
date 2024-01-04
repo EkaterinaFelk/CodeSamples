@@ -1,12 +1,14 @@
 'use client';
+
 import { ImageContainerStyled } from './imageContainer.styled';
 import { Image } from '../image/image';
-import { CatModel } from '../models/cat';
+import { CatModel } from '@/models/cat';
 import { use, useEffect, useState } from 'react';
 import { fetchCatsImages, queryClient } from './imageContainer.utils';
-import { useLoadMore } from 'apps/cat-pictures/hooks/use-load-more/useLoadMore';
+import { useLoadMore } from '@/hooks/use-load-more/useLoadMore';
 import { ImagesSkeleton } from '../image-skeleton/imageSkeleton';
 
+// apps/cat-pictures/app/_hooks/
 export function ImageContainer() {
   const [loadedCatsData, setLoadedCatsData] = useState<CatModel[] | null>(null);
 

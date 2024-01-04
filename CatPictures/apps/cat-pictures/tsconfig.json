@@ -16,7 +16,15 @@
         "name": "next"
       }
     ],
-    "types": ["jest", "node"]
+    "types": ["jest", "node"],
+    "baseUrl": "./",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/hooks/*": ["hooks/*"],
+      "@/models/*": ["models/*"],
+      "@/constants/*": ["app/_constants/*"],
+      "@/pages/*": ["pages/*"]
+    }
   },
   "include": [
     "**/*.ts",
