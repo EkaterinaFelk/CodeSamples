@@ -6,10 +6,10 @@ export default function Layout(props: {
   modal: ReactNode;
 }) {
   return (
-    <div>
+    <>
       <Welcome />
       {props.modal}
       {props.children}
-    </div>
+    </>
   );
 }

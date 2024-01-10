@@ -17,6 +17,16 @@ const nextConfig = {
     // For other options, see https://styled-components.com/docs/tooling#babel-plugin
     styledComponents: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn2.thecatapi.com',
+        port: '',
+        pathname: '/images/**',
+      },
+    ],
+  },
 };
 
 const plugins = [

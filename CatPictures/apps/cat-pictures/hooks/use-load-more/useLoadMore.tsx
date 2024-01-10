@@ -10,10 +10,11 @@ export type LoadMoreResult<T extends object> = {
 };
 
 export const useLoadMore = <T extends object>(
-  query: (page: number) => () => Promise<T>
+  query: (page: number) => Promise<T>,
+  initialPage = 0
 ) => {
   const [data, setData] = useState<T | null>(null);
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(initialPage + 1);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
 
@@ -34,7 +35,7 @@ export const useLoadMore = <T extends object>(
 
   const makeRequest = useCallback(
     () =>
-      query(page)()
+      query(page)
         .then((res) => {
           setPage((page) => page + 1);
           setData(res);

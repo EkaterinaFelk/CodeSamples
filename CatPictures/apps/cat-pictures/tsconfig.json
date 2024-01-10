@@ -23,7 +23,8 @@
       "@/hooks/*": ["hooks/*"],
       "@/models/*": ["models/*"],
       "@/constants/*": ["app/_constants/*"],
-      "@/pages/*": ["pages/*"]
+      "@/pages/*": ["pages/*"],
+      "@/resources/*": ["resources/*"]
     }
   },
   "include": [

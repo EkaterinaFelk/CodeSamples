@@ -8,6 +8,8 @@ export type CatBreedModel = {
 export type CatModel = {
   id: string;
   url: string;
+  width: number;
+  height: number;
   has_breeds: boolean;
   breeds: CatBreedModel[];
 };
