@@ -1,5 +1,5 @@
-import { CatDetails } from '@/pages/details/cat-details/catDetails';
+import { CatDetailsContainer } from '@/pages/details/cat-details-container/catDetailsContainer';
 
 export default function Page({ params }: { params: { id: string } }) {
-  return <CatDetails id={params.id} />;
+  return <CatDetailsContainer id={params.id} />;
 }

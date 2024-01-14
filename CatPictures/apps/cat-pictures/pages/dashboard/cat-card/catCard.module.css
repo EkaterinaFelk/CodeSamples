@@ -5,6 +5,9 @@
   object-fit: cover;
 }
 
-.cat-card:hover {
+.cat-card__active {
+  border: 3px dotted darkcyan;
+}
+.cat-card__active:hover {
   filter: contrast(0.5);
 }

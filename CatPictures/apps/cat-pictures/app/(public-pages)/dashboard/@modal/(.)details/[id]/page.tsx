@@ -1,10 +1,10 @@
 import { Modal } from '@/components/modal/modal';
-import { CatDetails } from '@/pages/details/cat-details/catDetails';
+import { CatDetailsContainer } from '@/pages/details/cat-details-container/catDetailsContainer';
 
 export default function CatModal({ params }: { params: { id: string } }) {
   return (
     <Modal>
-      <CatDetails id={params.id} />;
+      <CatDetailsContainer id={params.id} />
     </Modal>
   );
 }

@@ -1,0 +1,6 @@
+.description {
+  max-height: 400px;
+  overflow: auto;
+  font-family: cursive;
+  font-size: medium;
+}

@@ -1,10 +1,11 @@
+import { API_URL } from '@/constants/routes';
 import { CatModel } from '@/models/cat';
 import { NextResponse } from 'next/server';
 
 type URLParams = { page?: string | null; limit?: string | null };
 
 const getURL = ({ page, limit }: URLParams) => {
-  const baseURL = 'https://api.thecatapi.com/v1/images';
+  const baseURL = API_URL;
   const defaultLimit = 8;
   const limitQuery = `limit=${limit || defaultLimit}&`;
   const pageQuery = page ? `page=${page}` : '';

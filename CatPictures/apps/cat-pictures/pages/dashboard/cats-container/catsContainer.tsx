@@ -6,7 +6,7 @@ import { CatModel } from '@/models/cat';
 import { useEffect, useState } from 'react';
 import { useLoadMore } from '@/hooks/use-load-more/useLoadMore';
 import { ImagesSkeleton } from '../image-skeleton/imageSkeleton';
-import { fetchCatsImages } from 'app/(public-pages)/dashboard/actions';
+import { fetchCats } from 'app/(public-pages)/dashboard/actions';
 
 type ImageContainerProps = {
   initialData: CatModel[];
@@ -16,7 +16,7 @@ export function CatsContainer({ initialData }: ImageContainerProps) {
   const [catsData, setCatsData] = useState<CatModel[] | null>(initialData);
 
   const { LoadMoreCallerComponent, data, loading, error } =
-    useLoadMore<CatModel[]>(fetchCatsImages);
+    useLoadMore<CatModel[]>(fetchCats);
 
   useEffect(() => {
     setCatsData((prev) => {
