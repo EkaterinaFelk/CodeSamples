@@ -1,16 +1,17 @@
 'use client';
 
-import { memo } from 'react';
+import { ReactNode, memo } from 'react';
 import { createPortal } from 'react-dom';
 import { useRouter } from 'next/navigation';
 
 import css from './modal.module.css';
 
-interface ModalProps {
-  children: React.ReactNode;
-}
+type ModalProps = {
+  children: ReactNode;
+  hasClose?: boolean;
+};
 
-export const Modal = memo((props: ModalProps) => {
+export const Modal = memo(({ children, hasClose = true }: ModalProps) => {
   const router = useRouter();
 
   function onDismiss() {
@@ -18,10 +19,15 @@ export const Modal = memo((props: ModalProps) => {
   }
 
   return createPortal(
-    <div className={css['modal-backdrop']}>
+    <div
+      className={css['modal-backdrop']}
+      onClick={hasClose ? onDismiss : undefined} // TODO: fix click on modal
+    >
       <div className={css['modal']}>
-        {props.children}
-        <button onClick={onDismiss} className={css['close-button']} />
+        {children}
+        {hasClose && (
+          <button onClick={onDismiss} className={css['close-button']} />
+        )}
       </div>
     </div>,
     document.getElementById('modal-root')!

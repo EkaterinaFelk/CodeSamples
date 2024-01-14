@@ -1,7 +1,13 @@
 .app-header {
-  height: 50px;
+  height: 60px;
   background-color: black;
   color: white;
+  padding: 0 20px;
+}
+
+.app-menu {
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  height: 100%;
 }

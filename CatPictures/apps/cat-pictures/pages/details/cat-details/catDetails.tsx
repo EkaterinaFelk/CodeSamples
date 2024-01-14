@@ -7,12 +7,14 @@ type CatDetailsProps = {
 };
 
 export const CatDetails = memo(({ data }: CatDetailsProps) => {
+  const cat = data.breeds?.[0];
+
   return (
-    <section>
-      <h2>Cat: {data?.breeds?.[0].name}</h2>
-      <article className={css.description}>
-        {data?.breeds?.[0].description}
-      </article>
+    <section className={css.container}>
+      <h3>Cat: {cat.name}</h3>
+      <div>Country: {cat.country_code}</div>
+      <div>Origin: {cat.origin}</div>
+      <article className={css.description}>{cat.description}</article>
     </section>
   );
 });

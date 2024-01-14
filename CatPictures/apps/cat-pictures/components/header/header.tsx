@@ -6,10 +6,10 @@ import css from './header.module.css';
 export const Header = memo(() => {
   return (
     <header className={css['app-header']}>
-      <h1>
-        <Link href={Routes.home}>Cats Pictures!</Link>
-      </h1>
-      <Link href={Routes.about}>About</Link>
+      <nav className={css['app-menu']}>
+        <Link href={Routes.home}>Home</Link>
+        <Link href={Routes.about}>About</Link>
+      </nav>
     </header>
   );
 });

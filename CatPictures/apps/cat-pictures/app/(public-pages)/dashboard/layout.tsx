@@ -1,15 +1,19 @@
 import { ReactNode } from 'react';
 import { Welcome } from '@/pages/dashboard/welcome/welcome';
 
-export default function Layout(props: {
+type LayoutProps = {
   children: ReactNode;
   modal: ReactNode;
-}) {
+  content: ReactNode;
+};
+
+export default function Layout({ modal, content, children }: LayoutProps) {
   return (
     <>
       <Welcome />
-      {props.modal}
-      {props.children}
+      {children}
+      {modal}
+      {content}
     </>
   );
 }
