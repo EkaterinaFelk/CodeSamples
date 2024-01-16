@@ -15,11 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>
-          <Header />
-          {children}
-          <div id="modal-root" />
-        </StyledComponentsRegistry>
+        <Header />
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <div id="modal-root" />
       </body>
     </html>
   );

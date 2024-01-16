@@ -42,7 +42,7 @@ export const CatCard = memo(({ data }: CatCardProps) => {
           href={`${Routes.details}/${data.id}` as Route}
           passHref
           scroll={false}
-          shallow={true} // TODO: check if it's needed
+          shallow={true}
         >
           {renderCard()}
         </Link>
