@@ -7,3 +7,7 @@ export const ImageContainerStyled = styled.div`
   width: 100%;
   color: white;
 `;
+
+export const SectionStyled = styled.section`
+  background-color: rgba(112, 158, 237, 0.61);
+`;

@@ -1,5 +1,23 @@
 .app-welcome {
+  position: relative;
   height: 300px;
-  background-color: ivory;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(248, 80, 50, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(250, 250, 250, 0.81) 48%,
+    rgba(245, 245, 245, 0.77) 58%,
+    rgba(112, 158, 237, 0.61) 100%
+  );
   color: black;
+  cursor: url("/img/bug.png"), auto;
+}
+.welcome-text {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: fantasy;
+  font-size: xxx-large;
 }

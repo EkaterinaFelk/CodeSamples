@@ -1,6 +1,6 @@
 'use client';
 
-import { ImageContainerStyled } from './catsContainer.styled';
+import { ImageContainerStyled, SectionStyled } from './catsContainer.styled';
 import { CatCard } from '../cat-card/catCard';
 import { CatModel } from '@/models/cat';
 import { useEffect, useState } from 'react';
@@ -25,7 +25,7 @@ export function CatsContainer({ initialData }: ImageContainerProps) {
   }, [data]);
 
   return (
-    <>
+    <SectionStyled>
       <ImageContainerStyled>
         {catsData?.map((cat) => (
           <CatCard key={cat.id} data={cat} />
@@ -36,6 +36,6 @@ export function CatsContainer({ initialData }: ImageContainerProps) {
       {error && <div>Smth went wrong...</div>}
 
       <LoadMoreCallerComponent />
-    </>
+    </SectionStyled>
   );
 }

@@ -6,7 +6,7 @@
 }
 
 .cat-card__active {
-  border: 3px dotted darkcyan;
+  border: 3px dotted white;
 }
 .cat-card__active:hover {
   filter: contrast(0.5);
