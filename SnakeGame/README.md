@@ -1,6 +1,6 @@
 # Snake Game
 
-![game screenshot](public/screenshot.png?raw=true "Title")
+![App demo](<Screen Recording 2024-01-20 at 19.17.58.gif>)
 
 Game on vanillaJS using es5 just for fun
 
