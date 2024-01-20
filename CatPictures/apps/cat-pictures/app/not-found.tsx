@@ -1,3 +1,5 @@
+import { CatSceneContainer } from "@/components/cat-scene-container/catSceneContainer";
+
 export default function Custom404() {
-  return <h1>Custom 404 - Page Not Found</h1>;
+  return <CatSceneContainer text={'Oops! 404'} />;
 }

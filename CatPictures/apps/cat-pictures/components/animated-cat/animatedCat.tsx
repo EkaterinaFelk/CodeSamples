@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 'use client';
 
 import React, { memo, useCallback, useRef, useState } from 'react';
@@ -10,6 +11,10 @@ type AnimatedCatProps = {
   name: string;
   cursorOutOfView?: boolean;
 } & MeshProps;
+
+const defaultScale = 1;
+const scaleStep = 0.01;
+const scaleDuration = 50;
 
 export const AnimatedCat = memo(
   ({
@@ -36,21 +41,26 @@ export const AnimatedCat = memo(
     }, []);
 
     const handleClick = useCallback(() => {
-      setMessage('Ssshhhhhhh!');
       setClicked(true);
+      setMessage('Ssshhhhhhh!');
     }, []);
 
-    let scaleTick = 0;
+    const getScale = useCallback((tick: number) => {
+      return defaultScale + tick * scaleStep;
+    }, []);
+
+    let tick = 0;
     useFrame(() => {
       if (clicked) {
-        scaleTick++;
-        meshRef.current.scale.x = 1 + scaleTick * 0.01;
-        meshRef.current.scale.y = 1 + scaleTick * 0.01;
-        if (scaleTick > 50) {
+        tick++;
+        meshRef.current.scale.x = getScale(tick);
+        meshRef.current.scale.y = getScale(tick);
+
+        if (tick > scaleDuration) {
           setClicked(false);
-          scaleTick = 0;
-          meshRef.current.scale.x = 1;
-          meshRef.current.scale.y = 1;
+          tick = 0;
+          meshRef.current.scale.x = defaultScale;
+          meshRef.current.scale.y = defaultScale;
         }
       }
     });
@@ -62,7 +72,7 @@ export const AnimatedCat = memo(
         const x = (pointer.x * viewport.width) / 2.5;
         const y = (pointer.y * viewport.height) / 2.5;
 
-        meshRef.current.lookAt(x, y, 1);
+        x && y && meshRef.current.lookAt(x, y, 1);
       }
     });
 
