@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  font-family: monospace;
+  font-size: xx-large;
+}
+.error-description {
+  color: red;
+  font-size: small;
+}
+.reset-btn {
+  margin: 20px;
+  background: chartreuse;
+  border: 1px solid;
+  cursor: pointer;
+  padding: 5px;
+}

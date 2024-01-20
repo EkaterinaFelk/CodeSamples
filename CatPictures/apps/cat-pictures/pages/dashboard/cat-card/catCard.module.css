@@ -1,0 +1,13 @@
+.cat-card {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  object-fit: cover;
+}
+
+.cat-card__active {
+  border: 3px dotted white;
+}
+.cat-card__active:hover {
+  filter: contrast(0.5);
+}

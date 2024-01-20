@@ -1,0 +1,12 @@
+.container {
+  font-size: x-large;
+  font-family: auto;
+}
+
+.description {
+  max-height: 400px;
+  overflow: auto;
+  font-family: cursive;
+  font-size: medium;
+  margin-top: 20px;
+}
